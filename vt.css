@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "OPen Sans" sans-serif;
+    background-image: url("li.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock {
+    width: 550px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(11, 0, 0);
+    outline: #9f01f4 solid 10px;
+    padding: 80px;
+    position: relative;
+    top: 0%;
+    left: 30%;
+}
+
+.clock div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border-radius: 15px 50px 30px;
+    background: #b452f6;
+    width: 100px;
+    height: 120px;
+
+
+}
+
+.clock span {
+    font-weight: bolder;
+    font-size: 60px;
+    color: rgb(5, 0, 0);
+}
+
+h1 {
+    color: rgb(12, 0, 16);
+    text-align: center;
+    padding: 7rem;
+
+}
